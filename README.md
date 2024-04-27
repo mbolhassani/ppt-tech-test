@@ -14,5 +14,15 @@ Create and implement a backend system that is called from the sample UI that we 
 Once you are happy with your solution, please answer the following questions. There is no need for an essay - bullet pointing the key bits is completely fine!
 
 1. How did you verify that everything works correctly?
+- I verified that everything is working by writing and executing a complete set of test cases covering all the different posibilities and write to the console to make sure we end up to the correct branch of logic in each test case. However, the proper way of that was to write proper unit and integration tests.
 2. How long did it take you to complete the task?
+- around 2 hours
 3. What else could be done to your solution to make it ready for production?
+- Writing proper unit and integration tests
+- Containerize app and host it using Kubernetes to be able to scale up and down
+- Limit CORS by allowing specific origins
+- Add proper error handeling
+- Add proper Logging with appropriate log levels pushijng to a centralized log solution to be able to gain insight into the appliation performance
+- Implement Caching whenever is possible
+- Implement API Versioning
+
